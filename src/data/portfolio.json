@@ -1,0 +1,23 @@
+{
+  "name": "Leonardo Anício",
+  "title": {
+    "en": "Senior Software Architect & Tech Lead",
+    "pt": "Arquiteto de Software Sênior & Tech Lead"
+  },
+  "valueProposition": {
+    "en": "Designing resilient, high-performance web systems and cloud topologies. Focus on scalability, clean architectures, and premium developer tools.",
+    "pt": "Projetando sistemas web resilientes e de alta performance e topologias em nuvem. Foco em escalabilidade, arquiteturas limpas e ferramentas de desenvolvedor premium."
+  },
+  "whatsappUrl": "https://wa.me/5531994920075",
+  "email": "leonardoaapereira@gmail.com",
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/leoanicio"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/leonardo-anicio/"
+    }
+  ]
+}
