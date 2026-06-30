@@ -4,7 +4,7 @@
     "priority": 1,
     "title": {
       "en": "AI Legal and Immigration Automation Platform",
-      "pt": "Plataforma de Automação Legal e Imigração com IA"
+      "pt": "Plataforma de Automação Jurídica e Imigratória com IA"
     },
     "description": {
       "en": "Built three SaaS products for legal and immigration workflows: an O1 visa generator, an OCR-powered defense builder, and a visual workflow builder inspired by n8n.",
@@ -86,7 +86,7 @@
     },
     "description": {
       "en": "Refactored a legacy steel-tube simulation system into a cloud back end for an Operations Nerve Center to improve traceability and failure prediction before production.",
-      "pt": "Refatorei um sistema legado de simulação de tubos de aço em um back end em nuvem para um Operations Nerve Center, melhorando a rastreabilidade e a previsão de falhas antes da produção."
+      "pt": "Refatorei um sistema legado de simulação de tubos de aço em um backend em nuvem para um Operations Nerve Center, melhorando a rastreabilidade e a previsão de falhas antes da produção."
     },
     "techBadges": ["Python", "TypeScript", "React", "AWS", "PostgreSQL", "Redis"],
     "diagramType": "manufacturing",
