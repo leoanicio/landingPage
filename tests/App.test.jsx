@@ -28,7 +28,11 @@ describe('Language Toggle Integration', () => {
         name: /Arquiteto de Software Sênior & Engenheiro Backend de IA/i,
       })
     ).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /Impacto/i })).toBeInTheDocument();
+    expect(
+      screen.getAllByRole('link', { name: /LinkedIn/i }).some((link) =>
+        link.getAttribute('href') === '#recommendations'
+      )
+    ).toBe(true);
     expect(screen.getByRole('link', { name: /Stack/i })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Experiência/i })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Educação/i })).toBeInTheDocument();
@@ -47,7 +51,11 @@ describe('Language Toggle Integration', () => {
         name: /Senior Software Architect & AI Backend Engineer/i,
       })
     ).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /Impact/i })).toBeInTheDocument();
+    expect(
+      screen.getAllByRole('link', { name: /LinkedIn/i }).some((link) =>
+        link.getAttribute('href') === '#recommendations'
+      )
+    ).toBe(true);
     expect(screen.getByRole('link', { name: /Stack/i })).toBeInTheDocument();
   });
 });

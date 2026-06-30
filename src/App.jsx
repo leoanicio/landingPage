@@ -2,7 +2,7 @@ import React from 'react';
 import { LocaleProvider } from './context/LocaleContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import FeaturedImpact from './components/FeaturedImpact';
+import LinkedInRecommendations from './components/LinkedInRecommendations';
 import TechStack from './components/TechStack';
 import Timeline from './components/Timeline';
 import EducationCertifications from './components/EducationCertifications';
@@ -16,7 +16,7 @@ function MainAppContent() {
       <Navbar />
       <main>
         <Hero />
-        <FeaturedImpact />
+        <LinkedInRecommendations />
         <CaseStudies />
         <TechStack />
         <Timeline

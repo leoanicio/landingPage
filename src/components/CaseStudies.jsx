@@ -178,7 +178,7 @@ export default function CaseStudies() {
     <section id="cases" className="cases-section">
       <div className="container">
         <h2 className="cases-title">
-          {t({ en: 'Cloud Architecture Case Studies', pt: 'Casos de Estudo de Arquitetura Nuvem' })}
+          {t({ en: 'Featured Impact', pt: 'Impacto' })}
         </h2>
         <div className="cases-list">
           {sortedCaseStudies.map((study) => (

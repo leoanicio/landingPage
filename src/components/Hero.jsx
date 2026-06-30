@@ -33,7 +33,7 @@ export default function Hero() {
           </p>
           <div className="hero-ctas">
             <a href="#cases" className="btn btn-primary">
-              {t({ en: 'View Case Studies', pt: 'Ver Casos de Estudo' })}
+              {t({ en: 'Featured Impact', pt: 'Impacto' })}
               <ArrowRight size={18} />
             </a>
             <a href="#contact" className="btn btn-secondary">
