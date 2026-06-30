@@ -17,13 +17,13 @@ describe('ContactInfo Component', () => {
     renderWithLocale();
     const whatsappLink = document.getElementById('whatsapp-link');
     expect(whatsappLink).toBeInTheDocument();
-    expect(whatsappLink).toHaveAttribute('href', 'https://wa.me/5551999999999');
+    expect(whatsappLink).toHaveAttribute('href', 'https://wa.me/5531994920075');
     expect(whatsappLink).toHaveAttribute('target', '_blank');
   });
 
   it('renders the email contact coordinate', () => {
     renderWithLocale();
-    expect(screen.getByText('leonardo@example.com')).toBeInTheDocument();
+    expect(screen.getByText('leonardoaapereira@gmail.com')).toBeInTheDocument();
   });
 
   it('renders social links for GitHub and LinkedIn', () => {

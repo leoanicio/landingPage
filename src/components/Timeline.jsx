@@ -1,9 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import { useLocale } from '../context/LocaleContext';
 import timelineData from '../data/timeline.json';
-import { Briefcase, GraduationCap, Award, Calendar } from 'lucide-react';
+import { Briefcase } from 'lucide-react';
 
-export default function Timeline() {
+export default function Timeline({
+  sectionId = 'timeline',
+  title,
+  types = ['experience'],
+}) {
   const { t, tList } = useLocale();
   const timelineItemRefs = useRef([]);
 
@@ -37,32 +41,21 @@ export default function Timeline() {
     };
   }, []);
 
-  const getIcon = (type) => {
-    switch (type) {
-      case 'experience':
-        return <Briefcase size={18} />;
-      case 'education':
-        return <GraduationCap size={18} />;
-      case 'certification':
-        return <Award size={18} />;
-      default:
-        return <Calendar size={18} />;
-    }
-  };
-
   // Sort chronological from oldest starting year to newest
   const parseStartYear = (period) => {
     const startYear = period.split('-')[0].trim();
     return parseInt(startYear, 10) || 0;
   };
 
-  const sortedTimeline = [...timelineData].sort((a, b) => parseStartYear(a.period) - parseStartYear(b.period));
+  const sortedTimeline = [...timelineData]
+    .filter((item) => types.includes(item.type))
+    .sort((a, b) => parseStartYear(a.period) - parseStartYear(b.period));
 
   return (
-    <section id="timeline" className="timeline-section">
+    <section id={sectionId} className="timeline-section">
       <div className="container">
         <h2 className="timeline-section-title">
-          {t({ en: 'Professional Timeline', pt: 'Linha do Tempo Profissional' })}
+          {title ? t(title) : t({ en: 'Professional Timeline', pt: 'Linha do Tempo Profissional' })}
         </h2>
         <div className="timeline-container">
           <div className="timeline-line"></div>
@@ -71,15 +64,14 @@ export default function Timeline() {
             <div
               key={item.id}
               ref={(el) => (timelineItemRefs.current[index] = el)}
-              className={`timeline-item ${item.type === 'certification' ? 'cert-timeline-item' : ''}`}
+              className="timeline-item"
             >
-              <div className="timeline-badge" aria-label={item.type}>
-                {getIcon(item.type)}
+              <div className="timeline-badge" aria-label="experience">
+                <Briefcase size={18} />
               </div>
               <div className="timeline-card glass-card">
                 <div className="timeline-meta">
                   <span className="timeline-period">{item.period}</span>
-                  <span className={`timeline-tag tag-${item.type}`}>{item.type.toUpperCase()}</span>
                 </div>
                 <h3 className="timeline-role">{t(item.role)}</h3>
                 <h4 className="timeline-company">{t(item.company)}</h4>

@@ -6,7 +6,12 @@ import App from '../src/App';
 describe('Language Toggle Integration', () => {
   it('renders the page with default English content', () => {
     render(<App />);
-    expect(screen.getByText(/Senior Software Architect/i)).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', {
+        level: 2,
+        name: /Senior Software Architect & AI Backend Engineer/i,
+      })
+    ).toBeInTheDocument();
   });
 
   it('switches all visible text to Portuguese when locale is toggled', () => {
@@ -17,9 +22,16 @@ describe('Language Toggle Integration', () => {
     fireEvent.click(toggleBtn);
 
     // Verify Portuguese content appears
-    expect(screen.getByText(/Arquiteto de Software Sênior/i)).toBeInTheDocument();
-    expect(screen.getByText(/Habilidades/i)).toBeInTheDocument();
-    expect(screen.getByText(/Experiência/i)).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', {
+        level: 2,
+        name: /Arquiteto de Software Sênior & Engenheiro Backend de IA/i,
+      })
+    ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Impacto/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Stack/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Experiência/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Educação/i })).toBeInTheDocument();
   });
 
   it('toggles back to English on second click', () => {
@@ -29,7 +41,13 @@ describe('Language Toggle Integration', () => {
     fireEvent.click(toggleBtn); // → PT
     fireEvent.click(toggleBtn); // → EN
 
-    expect(screen.getByText(/Senior Software Architect/i)).toBeInTheDocument();
-    expect(screen.getByText(/Skills/i)).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', {
+        level: 2,
+        name: /Senior Software Architect & AI Backend Engineer/i,
+      })
+    ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Impact/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Stack/i })).toBeInTheDocument();
   });
 });

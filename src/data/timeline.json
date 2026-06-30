@@ -17,8 +17,8 @@
         "Published work on vehicular networks and low-cost energy meters at ISCC, SBSE, and SBRC."
       ],
       "pt": [
-        "Bacharelado em Engenharia Mecatrônica pela UFSJ.",
-        "Publicou trabalhos sobre redes veiculares e medidores de energia de baixo custo no ISCC, SBSE e SBRC."
+        "Concluí o Bacharelado em Engenharia Mecatrônica pela UFSJ.",
+        "Publiquei trabalhos sobre redes veiculares e medidores de energia de baixo custo no ISCC, SBSE e SBRC."
       ]
     }
   },
@@ -26,111 +26,179 @@
     "id": "edu-2",
     "period": "2019 - 2021",
     "company": {
-      "en": "UFMG / Denox",
-      "pt": "UFMG / Denox"
+      "en": "UFMG",
+      "pt": "UFMG"
     },
     "role": {
-      "en": "Master's in Electrical Engineering & Junior Backend Engineer",
-      "pt": "Mestrado em Engenharia Elétrica & Junior Backend Engineer"
+      "en": "Master's in Electrical Engineering",
+      "pt": "Mestrado em Engenharia Elétrica"
     },
     "type": "education",
     "bullets": {
       "en": [
         "M.Sc. in Electrical Engineering at UFMG.",
-        "Published at ICRA 2021 and CBA 2020 on control and guidance strategies for fixed-wing UAVs.",
-        "Junior Backend Engineer at Denox, Apr-Dec 2021.",
-        "Built batch pipelines ingesting location and tracking data for thousands of vehicles per second."
+        "Published at ICRA 2021 and CBA 2020 on control and guidance strategies for fixed-wing UAVs."
       ],
       "pt": [
-        "Mestrado em Engenharia Elétrica pela UFMG.",
-        "Publicou no ICRA 2021 e CBA 2020 sobre controle e orientação de UAVs de asa fixa.",
-        "Junior Backend Engineer na Denox, de abril a dezembro de 2021.",
-        "Desenvolveu pipelines em lote para ingestão de localização e rastreamento de milhares de veículos por segundo."
+        "Concluí o Mestrado em Engenharia Elétrica pela UFMG.",
+        "Publiquei no ICRA 2021 e CBA 2020 sobre controle e orientação de UAVs de asa fixa."
+      ]
+    }
+  },
+  {
+    "id": "edu-3",
+    "period": "2021 - 2023",
+    "company": {
+      "en": "PUCMG",
+      "pt": "PUCMG"
+    },
+    "role": {
+      "en": "Software Engineering Specialization",
+      "pt": "Especialização em Engenharia de Software"
+    },
+    "type": "education",
+    "bullets": {
+      "en": [
+        "Software Engineering specialization at PUCMG, Sep 2021 to Feb 2023."
+      ],
+      "pt": [
+        "Concluí a Especialização em Engenharia de Software pela PUCMG, de set/2021 a fev/2023."
       ]
     }
   },
   {
     "id": "exp-1",
-    "period": "2021 - 2023",
+    "period": "Apr 2021 - Dec 2021",
     "company": {
-      "en": "PUCMG / Vitau",
-      "pt": "PUCMG / Vitau"
+      "en": "Denox",
+      "pt": "Denox"
     },
     "role": {
-      "en": "Software Engineering Specialization & Backend Engineer",
-      "pt": "Especialização em Engenharia de Software & Backend Engineer"
+      "en": "Junior Backend Engineer",
+      "pt": "Junior Backend Engineer"
     },
     "type": "experience",
     "bullets": {
       "en": [
-        "Software Engineering specialization at PUCMG, Sep 2021 to Feb 2023.",
-        "Backend Engineer at Vitau, Dec 2021 to Jun 2022.",
-        "Refactored a steel-tube manufacturing simulator to predict failures before production.",
-        "Built an Operations Nerve Center integrating data across departments and scaling traceability to 200+ daily users."
+        "Developed and maintained batch processing pipelines for ingestion of location and tracking data from thousands of vehicles per second."
       ],
       "pt": [
-        "Especialização em Engenharia de Software pela PUCMG, de set/2021 a fev/2023.",
-        "Backend Engineer na Vitau, de dez/2021 a jun/2022.",
-        "Refatorou um simulador de tubos de aço para prever falhas antes da produção.",
-        "Criou um Operations Nerve Center que integrou dados e escalou a rastreabilidade para 200+ usuários diários."
+        "Desenvolvi e mantive pipelines de processamento em lote para ingestão de dados de localização e rastreamento de milhares de veículos por segundo."
       ]
     }
   },
   {
     "id": "exp-2",
-    "period": "2022 - 2025",
+    "period": "Dec 2021 - Jun 2022",
     "company": {
-      "en": "SaveLivez / Optibus",
-      "pt": "SaveLivez / Optibus"
+      "en": "Vitau",
+      "pt": "Vitau"
     },
     "role": {
-      "en": "Software Engineer",
-      "pt": "Engenheiro de Software"
+      "en": "Backend Engineer",
+      "pt": "Backend Engineer"
     },
     "type": "experience",
     "bullets": {
       "en": [
-        "Full Stack & Cloud Engineer at SaveLivez, Jun 2022 to Jun 2025.",
-        "Built concurrent platforms for blood bank inventory, scheduling, and AI donor prediction.",
-        "Implemented SQS/Lambda pipelines for 10,000+ record batches and 100,000+ Twilio/SES requests.",
-        "Software Engineer at Optibus, Sep 2023 to Jun 2025.",
-        "Maintained global-scale APIs and designed a real-time government integration MVP with serverless patterns."
+        "Refactored a legacy steel-tube manufacturing simulation system to predict physical failures before production.",
+        "Architected an Operations Nerve Center to integrate data across departments and scale order traceability for 200+ daily users in South America."
       ],
       "pt": [
-        "Full Stack & Cloud Engineer na SaveLivez, de jun/2022 a jun/2025.",
-        "Construiu plataformas concorrentes para estoque de bancos de sangue, agendamentos e campanhas de doação com IA.",
-        "Implementou pipelines SQS/Lambda para lotes de 10.000+ registros e 100.000+ requisições Twilio/SES.",
-        "Software Engineer na Optibus, de set/2023 a jun/2025.",
-        "Manteve APIs globais e arquitetou um MVP de integração governamental em tempo real com serverless."
+        "Refatorei um sistema legado de simulação de manufatura de tubos de aço para prever falhas físicas antes da produção.",
+        "Arquitetei um Operations Nerve Center para integrar dados entre departamentos e escalar a rastreabilidade de pedidos para 200+ usuários diários na América do Sul."
       ]
     }
   },
   {
     "id": "exp-3",
-    "period": "2025 - 2026",
+    "period": "Jun 2022 - Jun 2025",
     "company": {
-      "en": "AWS / Fresh Codes",
-      "pt": "AWS / Fresh Codes"
+      "en": "SaveLivez",
+      "pt": "SaveLivez"
     },
     "role": {
-      "en": "Senior Software Architect",
-      "pt": "Arquiteto de Software Sênior"
+      "en": "Full Stack & Cloud Engineer",
+      "pt": "Full Stack & Cloud Engineer"
     },
     "type": "experience",
     "bullets": {
       "en": [
-        "AWS Certified Solutions Architect - Associate, Jan 2025.",
-        "Senior Software Architect at Fresh Codes, Jun 2025 to Jun 2026.",
-        "Directed SaaS architecture for AI automation in legal and immigration workflows.",
-        "Built an O1 visa generator, a visual flow builder, and an AI legal defense tool with RAG and AI Judges.",
-        "Managed AWS infrastructure with a FinOps focus, cutting OCR costs by up to 10x."
+        "Built highly concurrent platforms for blood bank inventory management, scheduling, and AI-driven predictive donation campaigns.",
+        "Implemented an SQS/Lambda pipeline capable of processing batches of more than 10,000 records and campaigns with more than 100,000 concurrent requests via Twilio/SES."
       ],
       "pt": [
-        "AWS Certified Solutions Architect - Associate, jan/2025.",
-        "Senior Software Architect na Fresh Codes, de jun/2025 a jun/2026.",
-        "Conduziu a arquitetura de SaaS para automação com IA em processos legais e de imigração.",
-        "Criou um gerador de vistos O1, um construtor de fluxos visuais e uma ferramenta de defesa legal em IA com RAG e AI Judges.",
-        "Gerenciou a infraestrutura AWS com foco em FinOps, reduzindo os custos de OCR em até 10x."
+        "Construí plataformas altamente concorrentes para gerenciamento de estoques de bancos de sangue, agendamentos e campanhas preditivas de doação impulsionadas por IA.",
+        "Implementei um pipeline SQS/Lambda capaz de processar lotes de mais de 10.000 registros e campanhas com mais de 100.000 requisições simultâneas via Twilio/SES."
+      ]
+    }
+  },
+  {
+    "id": "exp-4",
+    "period": "Sep 2023 - Jun 2025",
+    "company": {
+      "en": "Optibus",
+      "pt": "Optibus"
+    },
+    "role": {
+      "en": "Software Engineer",
+      "pt": "Software Engineer"
+    },
+    "type": "experience",
+    "bullets": {
+      "en": [
+        "Maintained large-scale APIs supporting thousands of global customers.",
+        "Designed an MVP for real-time government integration using serverless patterns."
+      ],
+      "pt": [
+        "Mantive APIs de larga escala suportando milhares de clientes globais.",
+        "Arquitetei um MVP de integração governamental em tempo real utilizando padrões serverless."
+      ]
+    }
+  },
+  {
+    "id": "exp-5",
+    "period": "Jun 2025 - Jun 2026",
+    "company": {
+      "en": "Fresh Codes",
+      "pt": "Fresh Codes"
+    },
+    "role": {
+      "en": "Senior Software Architect",
+      "pt": "Senior Software Architect"
+    },
+    "type": "experience",
+    "bullets": {
+      "en": [
+        "Directed technical architecture for SaaS products focused on AI automation in legal and immigration workflows.",
+        "Built an O1 visa generator, a visual flow builder, and an AI legal defense tool with hallucination mitigation using RAG and AI Judges.",
+        "Managed AWS infrastructure with a continuous FinOps focus, reducing OCR processing costs by up to 10x."
+      ],
+      "pt": [
+        "Conduzi a arquitetura técnica de produtos SaaS voltados para automação com Inteligência Artificial em processos legais e de imigração.",
+        "Criei um gerador de vistos O1, um construtor de fluxos visuais e uma ferramenta de defesa legal em IA com mitigação de alucinações usando RAG e AI Judges.",
+        "Gerenciei toda a infraestrutura AWS com foco contínuo em FinOps, reduzindo em até 10x os custos de processamento de OCR."
+      ]
+    }
+  },
+  {
+    "id": "cert-1",
+    "period": "2025",
+    "company": {
+      "en": "AWS",
+      "pt": "AWS"
+    },
+    "role": {
+      "en": "AWS Certified Solutions Architect - Associate",
+      "pt": "AWS Certified Solutions Architect - Associate"
+    },
+    "type": "certification",
+    "bullets": {
+      "en": [
+        "Earned the AWS Certified Solutions Architect - Associate certification in January 2025."
+      ],
+      "pt": [
+        "Obtive a certificação AWS Certified Solutions Architect - Associate em janeiro de 2025."
       ]
     }
   }

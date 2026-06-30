@@ -2,8 +2,10 @@ import React from 'react';
 import { LocaleProvider } from './context/LocaleContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import FeaturedImpact from './components/FeaturedImpact';
 import TechStack from './components/TechStack';
 import Timeline from './components/Timeline';
+import EducationCertifications from './components/EducationCertifications';
 import CaseStudies from './components/CaseStudies';
 import ContactInfo from './components/ContactInfo';
 import './styles/index.css';
@@ -14,9 +16,15 @@ function MainAppContent() {
       <Navbar />
       <main>
         <Hero />
-        <TechStack />
-        <Timeline />
+        <FeaturedImpact />
         <CaseStudies />
+        <TechStack />
+        <Timeline
+          sectionId="experience"
+          title={{ en: 'Experience', pt: 'Experiência' }}
+          types={['experience']}
+        />
+        <EducationCertifications />
         <ContactInfo />
       </main>
       <footer style={{

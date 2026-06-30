@@ -13,16 +13,32 @@ describe('Timeline Component', () => {
     );
   };
 
-  it('renders all timeline entries from the data file', () => {
+  it('renders only experience entries from the data file', () => {
     renderWithLocale();
-    expect(screen.getByText(/Bachelor's in Mechatronic Engineering/i)).toBeInTheDocument();
-    expect(screen.getByText(/Master's in Electrical Engineering & Junior Backend Engineer/i)).toBeInTheDocument();
     expect(
       screen.getByRole('heading', {
         level: 3,
-        name: /AWS Certified Solutions Architect - Associate & Senior Software Architect/i,
+        name: /Junior Backend Engineer/i,
       })
     ).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', {
+        level: 3,
+        name: /^Software Engineer$/i,
+      })
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', {
+        level: 3,
+        name: /Senior Software Architect/i,
+      })
+    ).toBeInTheDocument();
+    expect(screen.getByText(/Denox/i)).toBeInTheDocument();
+    expect(screen.getByText(/Vitau/i)).toBeInTheDocument();
+    expect(screen.getByText(/SaveLivez/i)).toBeInTheDocument();
+    expect(screen.getByText(/Optibus/i)).toBeInTheDocument();
+    expect(screen.queryByText(/Bachelor's in Mechatronic Engineering/i)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Software Engineering Specialization/i)).not.toBeInTheDocument();
   });
 
   it('renders entries in chronological order (oldest first)', () => {
@@ -44,8 +60,7 @@ describe('Timeline Component', () => {
 
   it('renders concrete business metrics in bullet points', () => {
     renderWithLocale();
-    expect(screen.getByText(/thousands of vehicles per second/i)).toBeInTheDocument();
-    expect(screen.getByText(/100,000\+ Twilio\/SES requests/i)).toBeInTheDocument();
+    expect(screen.getByText(/100,000 concurrent requests via Twilio\/SES/i)).toBeInTheDocument();
     expect(screen.getByText(/10x/i)).toBeInTheDocument();
   });
 });

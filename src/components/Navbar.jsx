@@ -8,9 +8,11 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '#hero', label: { en: 'Home', pt: 'Início' } },
-    { href: '#skills', label: { en: 'Skills', pt: 'Habilidades' } },
-    { href: '#timeline', label: { en: 'Experience', pt: 'Experiência' } },
+    { href: '#impact', label: { en: 'Impact', pt: 'Impacto' } },
     { href: '#cases', label: { en: 'Case Studies', pt: 'Casos de Estudo' } },
+    { href: '#skills', label: { en: 'Stack', pt: 'Stack' } },
+    { href: '#experience', label: { en: 'Experience', pt: 'Experiência' } },
+    { href: '#education', label: { en: 'Education', pt: 'Educação' } },
     { href: '#contact', label: { en: 'Contact', pt: 'Contato' } },
   ];
 

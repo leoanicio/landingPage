@@ -8,7 +8,7 @@
     },
     "description": {
       "en": "Built three SaaS products for legal and immigration workflows: an O1 visa generator, an OCR-powered defense builder, and a visual workflow builder inspired by n8n.",
-      "pt": "Construiu três produtos SaaS para fluxos jurídicos e imigratórios: um gerador de vistos O1, um construtor de defesa com OCR e um construtor visual de fluxos inspirado no n8n."
+      "pt": "Construí três produtos SaaS para fluxos jurídicos e imigratórios: um gerador de vistos O1, um construtor de defesa com OCR e um construtor visual de fluxos inspirado no n8n."
     },
     "techBadges": ["Python", "TypeScript", "React", "AWS", "LangChain", "PostgreSQL"],
     "diagramType": "legal-ai",
@@ -19,9 +19,9 @@
         "OCR processing costs reduced by up to 10x on documents over 1,000 pages"
       ],
       "pt": [
-        "Processamento de vistos O1 reduzido de 1 dia para 30 minutos",
-        "Elaboração de defesas legais reduzida de dias para 2 horas",
-        "Custos de OCR reduzidos em até 10x em documentos com mais de 1.000 páginas"
+        "Reduzi o processamento de vistos O1 de 1 dia para 30 minutos",
+        "Reduzi a elaboração de defesas legais de dias para 2 horas",
+        "Reduzi os custos de OCR em até 10x em documentos com mais de 1.000 páginas"
       ]
     }
   },
@@ -34,7 +34,7 @@
     },
     "description": {
       "en": "Built a healthtech platform for blood bank inventory, scheduling, and AI-driven donor campaigns with batch processing and real-time hospital synchronization.",
-      "pt": "Construiu uma plataforma healthtech para estoque de bancos de sangue, agendamentos e campanhas preditivas com IA, combinando processamento em lote e sincronização em tempo real com hospitais."
+      "pt": "Construí uma plataforma healthtech para estoque de bancos de sangue, agendamentos e campanhas preditivas com IA, combinando processamento em lote e sincronização em tempo real com hospitais."
     },
     "techBadges": ["TypeScript", "Vue.js", "Python", "Django", "AWS", "PostgreSQL", "Twilio", "Sentry"],
     "diagramType": "blood-bank",
@@ -45,9 +45,9 @@
         "Eliminated concurrency issues and downtime during mass scheduling"
       ],
       "pt": [
-        "Fan-out SQS/Lambda processou lotes de mais de 10.000 registros",
-        "O roteamento de campanhas suportou mais de 100.000 requisições simultâneas via Twilio/SES",
-        "Eliminou problemas de concorrência e downtime em agendamentos em massa"
+        "Processei lotes de mais de 10.000 registros com um fan-out SQS/Lambda",
+        "Suportei mais de 100.000 requisições simultâneas no roteamento de campanhas via Twilio/SES",
+        "Eliminei problemas de concorrência e downtime em agendamentos em massa"
       ]
     }
   },
@@ -60,7 +60,7 @@
     },
     "description": {
       "en": "Architected a serverless MVP for real-time bus tracking, combining static routes with live positioning for a SaaS platform with thousands of daily operations.",
-      "pt": "Arquitetou um MVP serverless para rastreamento de ônibus em tempo real, combinando rotas estáticas com posicionamento ao vivo em uma plataforma SaaS com milhares de operações diárias."
+      "pt": "Arquitetei um MVP serverless para rastreamento de ônibus em tempo real, combinando rotas estáticas com posicionamento ao vivo em uma plataforma SaaS com milhares de operações diárias."
     },
     "techBadges": ["Python", "TypeScript", "React", "AWS", "Kubernetes", "MongoDB", "Redis", "Sentry"],
     "diagramType": "gov-tracking",
@@ -71,9 +71,9 @@
         "API scaled to handle thousands of daily requests"
       ],
       "pt": [
-        "A plataforma atendia mais de 4.000 clientes",
-        "A adoção de AWS Lambda reduziu os custos de infraestrutura do MVP em 10x",
-        "A API escalou para suportar milhares de requisições diárias"
+        "Atendi mais de 4.000 clientes com a plataforma",
+        "Reduzi os custos de infraestrutura do MVP em 10x com a adoção de AWS Lambda",
+        "Escalei a API para suportar milhares de requisições diárias"
       ]
     }
   },
@@ -86,7 +86,7 @@
     },
     "description": {
       "en": "Refactored a legacy steel-tube simulation system into a cloud back end for an Operations Nerve Center to improve traceability and failure prediction before production.",
-      "pt": "Refatorou um sistema legado de simulação de tubos de aço em um back end em nuvem para um Operations Nerve Center, melhorando a rastreabilidade e a previsão de falhas antes da produção."
+      "pt": "Refatorei um sistema legado de simulação de tubos de aço em um back end em nuvem para um Operations Nerve Center, melhorando a rastreabilidade e a previsão de falhas antes da produção."
     },
     "techBadges": ["Python", "TypeScript", "React", "AWS", "PostgreSQL", "Redis"],
     "diagramType": "manufacturing",
@@ -97,9 +97,9 @@
         "Scaled visibility to more than 200 daily users across 3 South American regions"
       ],
       "pt": [
-        "Preveniu falhas antes do início da manufatura",
-        "Economizou milhares de dólares por lote produzido",
-        "Escalou a visibilidade para mais de 200 usuários diários em 3 regiões da América do Sul"
+        "Preveni falhas antes do início da manufatura",
+        "Economizei milhares de dólares por lote produzido",
+        "Escalei a visibilidade para mais de 200 usuários diários em 3 regiões da América do Sul"
       ]
     }
   }
